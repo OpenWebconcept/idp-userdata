@@ -6,5 +6,4 @@ namespace OWC\IdpUserData;
 
 interface UserDataInterface
 {
-    public function getLevelOfAssurance(): string;
 }
