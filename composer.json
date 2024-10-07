@@ -1,5 +1,6 @@
 {
     "name": "owc/idp-userdata",
+    "type": "library",
     "description": "Common interfaces for IDP userdata (DigiD, eHerkenning)",
     "authors": [
         {
@@ -12,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OWC\\IdpUserdata\\": "src/"
+            "OWC\\IdpUserData\\": "src/"
         }
     }
 }
