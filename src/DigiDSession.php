@@ -8,10 +8,10 @@ class DigiDSession extends IdpSession
 {
     protected static function get_idp(): string
     {
-        return 'digid';
+        return Idp::DIGID;
     }
 
-    public static function getUserData(): ?DigiDUserDataInterface
+    public static function getUserData(): ?DigiDUserData
     {
         return parent::getUserData();
     }

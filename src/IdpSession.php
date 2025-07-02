@@ -15,7 +15,7 @@ abstract class IdpSession
         return apply_filters('owc_' . static::get_idp() . '_is_logged_in', $isLoggedIn);
     }
 
-    protected static function getUserData(): ?UserDataInterface
+    protected static function getUserData(): ?UserData
     {
         $userData = apply_filters('owc_idp_userdata', null, static::get_idp());
 
