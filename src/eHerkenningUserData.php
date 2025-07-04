@@ -17,7 +17,7 @@ class eHerkenningUserdata extends UserData
         return $this->kvk;
     }
 
-    public function getBsn(): string
+    public function getBsn(): ?string
     {
         return $this->bsn;
     }
