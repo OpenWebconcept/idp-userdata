@@ -1,5 +1,9 @@
 # CHANGELOG
 
+[v1.2.0] - 2026-03-27
+
+- Added: add extra session for e.g. partners
+
 [v1.1.0] - 2025-11-06
 
 - Added: support eIDAS
