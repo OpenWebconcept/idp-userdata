@@ -8,10 +8,10 @@ class eHerkenningSession extends IdpSession
 {
     protected static function get_idp(): string
     {
-        return 'eherkenning';
+        return Idp::EHERKENNING;
     }
 
-    public static function getUserData(): ?eHerkenningUserDataInterface
+    public static function getUserData(): ?eHerkenningUserData
     {
         return parent::getUserData();
     }

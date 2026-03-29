@@ -8,10 +8,10 @@ class eIDASSession extends IdpSession
 {
     protected static function get_idp(): string
     {
-        return 'eidas';
+        return Idp::EIDAS;
     }
 
-    public static function getUserData(): ?eIDASUserDataInterface
+    public static function getUserData(): ?eIDASUserData
     {
         return parent::getUserData();
     }

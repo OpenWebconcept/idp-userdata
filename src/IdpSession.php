@@ -39,7 +39,7 @@ abstract class IdpSession
         return apply_filters('owc_' . static::get_idp() . '_is_logged_in' . $filterSuffix, $isLoggedIn);
     }
 
-    protected static function getUserData(): ?UserDataInterface
+    protected static function getUserData(): ?UserData
     {
         $slot         = static::get_slot();
         $filterSuffix = $slot !== '' ? '_' . $slot : '';

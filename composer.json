@@ -1,7 +1,7 @@
 {
     "name": "owc/idp-userdata",
     "type": "library",
-    "description": "Common interfaces for IDP userdata (DigiD, eHerkenning)",
+    "description": "Common userdata classes and session helpers for IDP userdata (DigiD, eHerkenning)",
     "authors": [
         {
             "name": "Yard | Digital Agency",
